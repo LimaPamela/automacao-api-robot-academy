@@ -26,10 +26,10 @@ jobs:
           pip install robotframework-seleniumLibrary
           pip install robotframework-faker
  
-      - name: Run Robot Framework tests
+      - name: Run Robot Framework resources
         # run: echo Executando os testes de API do Robot
         run: |
-          robot --outputdir results/ tests/
+          robot --outputdir results/ resources/
 
       - name: Test Report
         # run: echo Salvando o Report dos Testes
