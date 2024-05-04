@@ -1,0 +1,5 @@
+robotframework==7.0
+robotframework-requests==0.9.6
+robotframework-seleniumLibrary==6.2
+robotframework-selenium2Library==3.0
+robotframework-faker==5.0
